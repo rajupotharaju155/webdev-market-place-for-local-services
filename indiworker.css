@@ -1,0 +1,110 @@
+
+#price{
+    padding: 40px 0;
+    background: #efefef;
+    height: 125%;
+}
+#price h1{
+    text-align: center;
+}
+
+.single-price{
+    margin: auto;
+    display: inline;
+    float: left;
+    width: 100%;
+    background-color: #fff;
+    transition: 0.5s;
+}
+
+.single-price:hover{
+   box-shadow: 0 2px 20px #333;
+}
+.price-head{
+   background-color: #2196f3;
+   display: inline;
+   float: left;
+   padding: 10px 5px;
+   width:  100%;
+   text-align: center;
+}
+.price-head h2{
+   color: #fff;
+   font-size: 30px;
+   font-weight: bold;
+   margin-bottom: 5px;
+   padding: 5px;
+   text-transform: uppercase;
+}
+
+.price-head p{
+   font-size: 20px;
+   color: #ccc;
+   font-weight: bold;
+   line-height: 30px;
+}
+
+#price span {
+   font-size: 15px;
+}
+
+.price-content{
+   display: inline;
+   float: left;
+   width: 100%;
+   padding: 0 15px;
+}
+.price-content ul li {
+   border-bottom: 0px solid #efefef;
+   padding: 15px 10px;
+   list-style-type: none;
+}
+
+ul li:last-child{
+   border: none;
+}
+
+.fa-check-circle{
+   color: green;
+   margin-right: 10px;
+   font-size: 20px;
+}
+
+.fa-times-circle{
+   color: red;
+   margin-right: 10px;
+   font-size: 20px;
+}
+a{
+   text-decoration: none !important;
+   color: #fff !important;
+}
+
+.pro{
+    border: 0px solid black;
+    width: 30%;
+    height: 25%;
+    left: 10%;
+    position: relative;
+    border-radius: 20px;
+}
+.pro img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+
+/*-----------booking----------*/
+
+.book{
+    border: 0px solid black;
+    float: right!important ;
+}
+
+.form input{
+    color: black;
+}
+.info{
+    border: 0px solid black;
+    height: 50%;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+<html>
+<head>
+  <title>Sign Up</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="login_style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript" >
+
+  function checkpass()
+  {
+    var first = document.frm.pass1.value;
+    var sec = document.frm.pass2.value;
+    if (first == sec)
+    {
+      return true;
+    }
+    else
+    {
+      alert("Both passwords should match! ");
+      return false;
+    }
+  }
+  </script>
+</head>
+<body>
+    <div class="logo">
+        <img src="images/LOGO.jpeg" alt="">
+      </div>
+      <H2  style="color: aliceblue; float:right; margin-right:60px;"  >SERVICE REGISTRATION</H2>
+<div class="login-page">
+  <div class="form">
+    <form name="frm" action="service_registration.php" method="POST"  onsubmit="return checkpass()" >
+      <input type="text" name="fullname" placeholder="full name"  required  />
+      <input type="text"  name="email" placeholder="email address"  required />
+      <input type="text"  name="phone"  placeholder="enter phone number"  required />
+      <input type="text"  name="username"  placeholder="pick a username"  required />
+      <input type="text"  name="type_of_service"  placeholder="Type-of-service"  required />
+      <input type="password"  name="pass1" placeholder="set a password"  required />
+      <input type="password"  name="pass2"  placeholder="confirm password"  required />
+      <button type="submit" class="btn btn-primary"> SIGN UP</button>
+    </form>
+  </div>
+</div>
+</body>
+</html>
+

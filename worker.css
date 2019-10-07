@@ -1,0 +1,139 @@
+
+body{
+ background-color: #FFFAFA;
+}
+#topsection{
+    width: 85%;
+    margin: 0 auto;
+    margin-left: 150px;
+    background-color:black;
+    height: 60px;
+    padding-bottom: 10px;
+}
+.container{
+ 
+    width: 80%;
+    margin: auto;
+
+}
+ h2{
+     text-align: center;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     color: white;
+     text-decoration: underline;
+     font-size: 40px;
+     
+ }
+
+.row{
+ width: 100%;
+ margin: auto;
+ height: 40%;
+ padding: 50px;
+ margin: auto;
+ float: left;
+ padding-top: 50px;
+ border: 0px solid black;
+}
+
+.row::after{
+ content: '';
+ background-color: rgb(48, 41, 41) !important;
+ display: block;
+ height: 2px;
+ width: 100%;
+ margin: auto;
+ margin-top: -70px;
+}
+
+.card {
+ text-align: center;
+ width: 300px;
+ height: 300px;
+ position:relative;
+ float: left;
+ position: relative;
+ border: 0px solid black;
+}
+
+.card img{
+ width: auto;
+ height: 100%;
+ padding-top: 1px;
+ border-radius: 30px;
+}
+.detail{
+ float: left;
+ position: relative;
+ padding-left    : 30px;
+ text-align: center;
+ display: inline-block;
+ height: 300px;
+}
+#rating{
+ float: left;
+ position: relative;
+ top: -10px;
+ width: 50px;
+ height: 10px;
+}
+
+button {
+ float: left;
+ border: none;
+ padding: 8px;
+ color: white;
+ background-color: #000;
+ text-align: center;
+ cursor: pointer;
+ margin-top: 5px;
+ width: 300px;
+ font-size: 18px;
+ border-bottom: black;
+}
+
+button:hover, a:hover {
+opacity: 0.7;
+}
+/* star css*/
+.star{
+       color: black;
+       font-size: 1.5rem; /*relative to html root */
+       padding: 0.5rem; /* space out the stars */
+     }
+     .star::before{
+       content: '\2606';    /* star outline */
+       cursor: pointer;
+     }
+     .star.rated::before{
+     
+       content: '\2605';  /* filled star */ 
+     }
+     
+     .stars{
+         counter-reset: rateme 0;    /*naming the counter */
+         font-size: 1.0rem;
+         font-weight: 900;
+     }
+     .star.rated{
+         counter-increment: rateme 1;/*initializing counter to 1*/
+     }
+     .stars::after{
+         content: counter(rateme) '/5';
+     }
+     hr{
+         color:black;
+         text-align: center;
+         width:  1500px;
+         margin-left: 100px;
+         margin-right: -100px;
+         padding:1px;
+     }
+
+.map{
+ border: 2px solid black;
+ width: 40%;
+ height: 90%;
+ float: left;
+ margin-left: 15px;
+}  
