@@ -3,7 +3,7 @@ This project was developed in 30hr hachathon. This project aims to connect servi
 All required javascript validations are inserted wherever needed
 
 
-   Before we Proceed with the frontend please create following tables in same database you can use MySql in Xampp server
+   Before we Proceed with the frontend please create (or import the database file, find it in "database/hackathon.sql") following tables in same database you can use MySql in Xampp server
    1) Table 1 
         user signin and login credentials
       ![usertable](https://user-images.githubusercontent.com/53445466/66282140-dde89580-e8db-11e9-9eff-411123b3cd85.png)
