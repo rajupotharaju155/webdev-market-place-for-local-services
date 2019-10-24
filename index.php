@@ -124,7 +124,7 @@ include("connection.php");
         <div class="row row1">
             <div class="col-md-3">
                     <div class="single-box">
-                        <a href="electrician.html"><div class="icon1">
+                        <a href="electrician.php"><div class="icon1">
                              <i class="fa fa-plug"></i>
                         </div>
                                  </a>
